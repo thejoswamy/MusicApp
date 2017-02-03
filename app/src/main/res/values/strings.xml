@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <string name="list_activty">List Activity</string>
+    <string name="details_activity">Details Activity</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="now_playing_activity">Now Playing Activity</string>
+
+    <string name="category_artists">Artists</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_playlists">Playlists</string>
+    <string name="category_genre">Genre</string>
+    <string name="list_item">List Items</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="search">Search</string>
+
+    <string name="music_library">Music Library showing different types of categories</string>
+    <string name="category_list">Artists/Albums/Playlist/Genre List with Search feature. Uses ListView/Recycler view to show list of items</string>
+    <string name="category_item_details">Details of specific item in Artists/Albums/Playlists/Genre with Search feature</string>
+    <string name="search_results">Search Results</string>
+    <string name="now_playing_screen">Screen showing current playing song along with controls. Uses MediaPlayer APIs</string>
+</resources>
