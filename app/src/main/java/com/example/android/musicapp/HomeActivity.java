@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
 
         Button artists = (Button) findViewById(R.id.artists);
         artists.setOnClickListener(this);
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent searchIntent = new Intent(MainActivity.this, SearchActivity.class);
+                Intent searchIntent = new Intent(HomeActivity.this, SearchActivity.class);
                 startActivity(searchIntent);
             }
         });
